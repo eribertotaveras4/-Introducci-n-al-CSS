@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Introducción al CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#titulo">Menu</a></li>
+            <li>
+                <a href="#">Actiidad 1</a>
+                <ul class="submenu">
+                    <li><a href="#">Que es css</a></li>
+                    <li><a href="#">selectores CSS</a></li>
+                    <li><a href="#">diseño responsivo</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Practica 2</a>
+                <ul class="submenu">
+                    <li><a href="#">Texto</a></li>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Tarjetas</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Actidad 3 de Menu</a></li>
+        </ul>
+    </nav>
+
+<body>
+    <h1 class="titulo">DISEÑADOR DE PÁGINAS WEB, CSS Y JAVASCRIPT <br> ACTIVIDAD: 1</h1>
+
+    <ol class="Preguntas">
+   <li> <h4 > Qué es CSS? </h4></li>
+   <p class="parrafo"> <strong>CSS: </strong> (Hojas de Estilo en Cascada) es un lenguaje que se utiliza para describir la presentación de un documento HTML, especificando cómo deben aparecer los elementos en la pantalla.</p>
+   <li> <h4>Cuál es la función principal de CSS?</h4> </li>
+   <p class="parrafo">La función principal de CSS es separar el contenido de la presentación, lo que permite definir estilos como colores, fuentes y espaciados de una manera más eficiente.</p>
+   <li> <h4>Cómo se puede incluir CSS en un documento HTML?</h4></li>
+   <p><ul> 
+    <li>
+    <p>CSS se puede incluir en un documento HTML de tres maneras: </p><br>
+
+    <li>Inline: Directamente en la etiqueta HTML usando el atributo style.</li><br>
+    
+    <li>Interno: Dentro de una etiqueta <strong>style</strong> en la sección <head> del HTML. </li><br>
+    
+        <li>Externo: En un archivo <strong>css</strong> separado, enlazado al <strong>HTML</strong> con una etiqueta <strong>link</strong> </li></p>
+    </li></ul>
+    <li><h4>Qué son los selectores en CSS?</h4></li>
+    <p>Los selectores en CSS son patrones que seleccionan los elementos HTML a los que se les aplicarán los estilos. Pueden ser simples, como etiquetas (h1, p), clases (.clase), y IDs (#id)</p>
+
+
+    <li><h4>Qué son las propiedades y valores en CSS? </h4></li>
+    <p>Propiedades y valores: En CSS, las propiedades son los aspectos del elemento que se desean cambiar, como el color o el tamaño de la fuente.</p>
+
+    <li><h4>Cómo se aplica el modelo de caja en CSS? </h4></li>
+    <p>El modelo de caja en CSS trata a cada elemento como una caja con cuatro partes: contenido, padding (relleno), borde y márgenes. Esto ayuda a diseñar y espaciar los elementos de la página.</p>
+
+    <li><h4>Qué es el "cascading" en CSS? </h4></li>
+    <p>Cascading se refiere a cómo las reglas CSS se aplican de forma jerárquica, desde las más generales a las más específicas, permitiendo que los estilos se combinen y se sobrescriban según las necesidades.</p>
+    
+    <li><h4>Qué son las media queries? </h4></li>
+    <p> Las media queries son reglas CSS que permiten aplicar estilos diferentes según las características del dispositivo, como el tamaño de la pantalla. Son fundamentales para crear diseños responsivos.</p>
+
+    <li><h4>Cuáles son algunos estilos comunes que se pueden aplicar? </h4></li>
+    <p>Algunos estilos comunes en CSS incluyen cambiar el color de fondo (background-color), el color del texto (color), la fuente (font-family), el margen (margin), el padding (padding) y la alineación del texto (text-align).</p>
+
+    <li><h4>Cómo se puede usar CSS para crear un diseño responsivo? </h4></li>
+    <p> El diseño responsivo en CSS se logra usando unidades relativas (%, em, rem), media queries para ajustar los estilos según el tamaño de la pantalla, y técnicas como flexbox y grid para distribuir los elementos de manera flexible y adaptable.</p>
+</ol>
+
+
+<H1 class="practica1">PRACTICA 1</H1>
+<h3>Objetivo: Crear una sencilla página de presentación que incluya estilos básicos.</h3>
+<h3 class="informacion">En este apartado estoy colocando mi foto de perfil de acorde al mandato y dandole formato con css, esta es una foto personal mia, con diseño de bordes con color verde y perfilado, ahora le dare formato a este texto con background color y algunas  cosas mas, yupii</h3>
+
+<img src="Foto de Perfil.jpg" alt="Imagen de Perfil" class="imagen"> <br>
+    <button class="boton">Leer más</button>
+    <br>
+    <br>
+</body>
+
+<body class="practica2">
+    <div class="contenedor-tarjetas">
+        <div class="tarjeta">
+            <img src="Carro.jpg" alt="Producto 1" class="imagen-tarjeta">
+            <h2 class="titulo-tarjeta">Carro blanco</h2>
+            <button class="boton-tarjeta">Ver más</button>
+        </div>
+        <div class="tarjeta">
+            <img src="Jepeta.jpg" alt="Producto 2" class="imagen-tarjeta">
+            <h2 class="titulo-tarjeta">Jepeta</h2>
+            <button class="boton-tarjeta">Ver más</button>
+        </div>
+        <div class="tarjeta">
+            <img src="carro lujo.jpg" alt="Producto 3" class="imagen-tarjeta">
+            <h2 class="titulo-tarjeta">Carro de lujo</h2>
+            <button class="boton-tarjeta">Ver más</button>
+        </div>
+    </div>
+    
+</html>
